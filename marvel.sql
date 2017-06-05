@@ -60,7 +60,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '21:
 -- DELETE FROM people WHERE id = 8;
 -- UPDATE people SET name = 'Jack Jarvis' WHERE id = 9;
 -- UPDATE people SET name = 'Victor McDade' WHERE id = 13;
-INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', '2017', '00:00');
+-- INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', '2017', '00:00');
 -- SELECT * FROM people;
+UPDATE movies SET show_time = '21:30' WHERE id = 11;
 SELECT * FROM movies;
 

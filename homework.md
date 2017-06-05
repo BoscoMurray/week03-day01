@@ -49,7 +49,10 @@ UPDATE people SET name = 'Victor McDade' WHERE id = 13;
 INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', '2017', '00:00');
 
 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 12:10 to 21:30
+UPDATE movies SET show_time = '21:30' WHERE id = 11;
+
 
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+DELETE FROM movies WHERE id BETWEEN 7 AND 9;
